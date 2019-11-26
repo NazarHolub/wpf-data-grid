@@ -1,0 +1,31 @@
+﻿<Window x:Class="Crud.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Crud"
+        mc:Ignorable="d"
+        Title="Window1" Height="654.11" Width="324.658"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel>
+        <Label Content="Name:" HorizontalAlignment="Left"/>
+        <TextBox Name="txtboxName" Height="30" Width="317" HorizontalAlignment="Left"/>
+        
+        <Label Content="Genre" />
+        <TextBox Name="txtboxGenre" Height="30" Width="200" HorizontalAlignment="Left" />
+
+        <Label Content="Id" HorizontalAlignment="Left"/>
+        <TextBox Name="txtboxId" Height="30" Width="200"  HorizontalAlignment="Left"/>
+
+        <Label Content="Duration" HorizontalAlignment="Left"/>
+        <TextBox Name="txtboxHour" Height="30" Width="40" HorizontalAlignment="Left"/>
+        <TextBox Name="txtboxMinute" Height="30" Width="40" HorizontalAlignment="Left"></TextBox>
+
+        <Label Content="Date" HorizontalAlignment="Left"/>
+        <Calendar Name="calendar" HorizontalAlignment="Left" />
+        <Button x:Name="btnAdd" Click="BtnAdd_Click" Height="30" Width="80" Content="Add" HorizontalAlignment="Center" />
+
+        </StackPanel>
+    </Grid>
+</Window>
